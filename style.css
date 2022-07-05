@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.orange-red {
+    color: orangered;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(134, 73, 73);
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 40px;
+    font-weight: 700;
+    color: azure;
+    border-radius: 15px;
+    border-top: 5px;
+}
+
+.link-button-about {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 15px 60px;
+    font-weight: 900;
+    color: azure;
+    border-radius: 25px;
+    border-top: 5px;
+
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 100px;
+
+
+}
+
+.header-half-width {
+    width: 100%;
+    padding-left: 10%;
+}
+
+.header-half-width img {
+    text-align: center;
+    width: 90%;
+
+}
+
+.header-half-width-about {
+    width: 100%;
+    padding-left: 10%;
+}
+
+
+.header-half-width-about img {
+    width: 50%;
+    margin: 0%;
+}
+
+.about {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+
+}
+
+.about-font {
+    font-size: 40px;
+}
+
+.rece {
+    text-align: center;
+    font-size: 35px;
+}
+
+.rece1 {
+    text-align: center;
+    padding: 0px 300px 0px 300px;
+    font-size: 90%;
+}
+
+.recep-div {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+
+
+}
+
+.recep-div img {
+    padding: 40px 10px 40px 20px;
+    width: 90%;
+    margin: 0%;
+}
+
+.final-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 60px;
+    padding: 20px 55px;
+    box-shadow: 3px 3px 45px gray;
+    border-radius: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(22, 22, 50);
+    text-align: center;
+    height: 200px;
+    padding-top: 40px;
+}
+
+footer p {
+    color: white;
+}
